@@ -61,7 +61,7 @@ section div article img{
     height: 350px;
 }
 
-.titulos h1{
+.titulos h2{
     font-family: 'Galindo', cursive;
     font-size: 60px;
     font-weight: 600;
@@ -112,7 +112,7 @@ footer{
     height: 350px; 
 }
 
-.titulodes h1{
+.titulodes h5{
     font-family: 'Galindo', cursive;
     font-size: 60px;
     font-weight: 600;
@@ -206,9 +206,13 @@ footer{
 
 }
 
+.footerdestinos h3{
+    font-size: 40px;
+}
+
 /**PANTALLA DE ESTADOS UNIDOS (ATLANTA)**/
 
-.tituloata h1 {
+.tituloata h5{
     font-family: 'Galindo', cursive;
     font-size: 60px;
     font-weight: 600;
