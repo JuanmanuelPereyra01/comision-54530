@@ -31,8 +31,7 @@ img{
 
 }
 
-.contenedor{
-}
+
 
 .contenedora {
     display: flex;
@@ -291,8 +290,10 @@ footer{
     font-size: 50px;
 }
 
-.gastro h2{
-    font-size: 80px;
+.menu h2{
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
 }
 
 /**PANTALLA DE gastronomia mexico**/
@@ -374,6 +375,21 @@ footer{
 
 /**responsive home**/
 
+@media (max-width:1440px){
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .infohome h2{
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
 @media (max-width:1024px){
     main img{
         width: 1024px;
@@ -393,6 +409,13 @@ footer{
     .titulos img{
         width: 1024px;
         height: 300px;
+    }
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 }
 
@@ -419,6 +442,13 @@ footer{
     .infohome{
         font-size: 14px;
         text-align: center;
+    }
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 
     .contenedor a img{
@@ -448,7 +478,7 @@ footer{
     }
 
     .redes a {
-       font-size: 40px;
+    font-size: 40px;
     }
     
     footer{
@@ -672,8 +702,11 @@ footer{
     .contenedor4 img{
         width:425px;
         height: 200px;
-
-    }    
+    } 
+    
+    .titulodes h1{
+        font-size: 40px;
+    }
 }
 @media (max-width:375px){
     .titulo3 img{
@@ -690,7 +723,8 @@ footer{
     .contenedor4 img{
         width:375px;
         height: 200px;
-    } 
+    }
+     
 }
 @media (max-width:320px){
     .titulo3 img{
@@ -710,4 +744,139 @@ footer{
         height: 200px;
 
     } 
+}
+
+/**responsive destinos y gastronomia**/
+
+
+@media (max-width:1024px){
+    .titulo img{
+        width: 1024px;
+        height: 400px;
+    }
+
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .centrar h2{
+        font-size: 40px;
+    }
+    
+
+
+}
+@media (max-width:768px){
+    .titulo img{
+        width: 768px;
+        height: 400px;
+    }
+
+    .centrar h2{
+        font-size: 40px;
+    } 
+
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .gasas a img{
+        width: 150px;
+        height:150px;
+    }
+
+}
+@media (max-width:425px){
+    .titulo img{
+        width: 425px;
+        height: 300px;
+    }
+
+    .centrar h2{
+        font-size: 30px;
+    }
+    
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h1{
+        font-size: 40px;
+    }
+
+
+    .paisess{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .paises{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+@media (max-width:375px){
+    .titulo img{
+        width: 375px;
+        height: 250px;
+    }
+
+    .centrar h2{
+        font-size: 25px;
+    }
+    
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h1{
+        font-size: 35px;
+    }
+}
+@media (max-width:320px){
+    .titulo img{
+        width: 320px;
+        height: 250px;
+    }
+
+    .centrar h2{
+        font-size: 18px;
+    }
+    
+    .paises a img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h1{
+        font-size: 30px;
+    }
 }
