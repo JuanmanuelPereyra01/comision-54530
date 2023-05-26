@@ -536,7 +536,7 @@ footer{
         height: 150px;
     }
 
-    .titulos h1{
+    .titulos h2{
         font-size: 30px;
     }
 
@@ -570,6 +570,7 @@ footer{
         font-size: 13px;
         
     }
+
 }
 
 @media (max-width:375px){
@@ -587,11 +588,11 @@ footer{
         height: 100px;
     }
 
-    .titulos h1{
+    .titulos h2{
         font-size: 30px;
     }
 
-    footer h1{
+    footer h2{
         font-size: 17px;
     }
 
@@ -649,7 +650,7 @@ footer{
         height: 100px;
     }
 
-    .titulos h1{
+    .titulos h2{
         font-size: 30px;
     }
 
@@ -691,7 +692,7 @@ footer{
     }
 
     .contenedor h3{
-        font-size: 13px;   
+        font-size: 10px;   
     }
 }
 
@@ -737,8 +738,8 @@ footer{
         height: 200px;
     } 
     
-    .titulodes h1{
-        font-size: 40px;
+    .titulodes h5{
+        font-size: 50px;
     }
 }
 @media (max-width:375px){
@@ -768,7 +769,7 @@ footer{
         font-size: 15px;
     }
 
-    .titulodes h1{
+    .titulodes h5{
         font-size: 35px;
     }
 
@@ -848,7 +849,7 @@ footer{
         font-size: 15px;
     }
 
-    .titulodes h1{
+    .titulodes h5{
         font-size: 40px;
     }
 
@@ -864,6 +865,10 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .footerdestinos h3{
+        font-size: 25px;
     }
 
 }
@@ -886,8 +891,12 @@ footer{
         font-size: 15px;
     }
 
-    .titulodes h1{
+    .titulodes h5{
         font-size: 35px;
+    }
+
+    .footerdestinos h3{
+        font-size: 20px;
     }
 }
 @media (max-width:320px){
@@ -909,7 +918,11 @@ footer{
         font-size: 15px;
     }
 
-    .titulodes h1{
+    .titulodes h5{
         font-size: 30px;
+    }
+
+    .footerdestinos h3{
+        font-size: 20px;
     }
 }
