@@ -1,0 +1,68 @@
+.titulo2{
+    h2{
+        font-family: 'Galindo', cursive;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5vmax;
+        justify-content: center;
+        display: flex;
+        background-color: #19376D;
+        box-shadow: 6px 6px #0B2447;
+        text-align: center;
+        width: 70%;
+    }
+}   
+
+.titulo2{
+    background-image: url(../assets/img/lugares/pizzarra.jpg) ;
+}
+
+.titulo2{
+    a{
+        img{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin: 0 25px;
+            display:inline-block;
+        }
+    }
+}  
+    
+
+.titulo2{
+    h3{
+        font-family: $tipo-deletra2;
+        color:white;
+    }
+}  
+
+.mexgasinfo{
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    font-size: 20px ;
+    color: white;
+    text-align: center;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.contenedor3{
+    img{
+        clip-path: circle();
+        background-color:rgba(0,0,0, 0.6);
+    }
+}    
+
+.contenedor3{
+    h3{
+        color: silver;
+        font-family: $tipo-deletra3;
+    }
+}
+
+/*pantalla de sobremi*/
+

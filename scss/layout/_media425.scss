@@ -1,0 +1,156 @@
+/**responsive home**/
+
+@media (max-width:425px){
+    .navegacion {
+        a{
+            font-size: 15px;
+        }
+    } 
+
+    main {
+        img{
+            width: 425px;
+            height: 250px;
+        }
+    } 
+
+    .titulos{
+        img{
+            width: 425px;
+            height: 150px;
+        }
+    } 
+
+    .titulos{
+        h2{
+            font-size: 30px;
+        }
+    } 
+
+    footer {
+        h1{
+            font-size: 20px;
+        }
+    } 
+
+    .titulos {
+        p{
+            font-size: 14px;
+        }
+    } 
+
+    .contenedor {
+        a {
+            img{
+                width: 140px;
+                height: 140px;
+            }
+        } 
+    } 
+
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedora{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    }
+
+    .contenedor{
+        h3{
+            font-size: 13px;
+            
+        }
+    } 
+
+}
+
+/**responsive sobre mi**/
+@media (max-width:425px){
+    .titulo3 {
+        img{
+            width: 425px;
+            height: 200px;
+        }
+    } 
+    .sobreinfo{
+        font-size: 25px;
+    }
+    .contenedor4 {
+        img{
+            width:425px;
+            height: 200px;
+        } 
+    } 
+    
+    .titulodes {
+        h5{
+            font-size: 50px;
+        }
+    } 
+}
+
+/**responsive destinos y gastronomia**/
+@media (max-width:425px){
+    .titulo {
+        img{
+            width: 425px;
+            height: 300px;
+        }
+    } 
+
+    .centrar {
+        h2{
+            font-size: 30px;
+        }
+    } 
+    
+    .paises {
+        a {
+            img{
+                width: 140px;
+                height: 150px;
+            }
+        } 
+    } 
+
+    .paises {
+        a {
+            h3{
+                font-size: 15px;
+            }
+        } 
+    } 
+
+    .titulodes {
+        h5{
+            font-size: 40px;
+        }
+    } 
+
+
+    .paisess{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .paises{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerdestinos {
+        h3{
+            font-size: 25px;
+        }
+    } 
+}
+

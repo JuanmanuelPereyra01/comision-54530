@@ -1,0 +1,92 @@
+/**responsive home**/
+
+@media (max-width:1024px){
+    main {
+        img{
+            width: 1024px;
+            height: 450px;
+        }
+    } 
+
+    main {
+        h2{
+            padding: 10px;
+            font-family: 'Galindo', cursive;
+        }
+    } 
+
+    .infohome {
+        a{
+            padding: 12px;
+            font-size: 15px;
+        }
+    } 
+
+    .titulos {
+        img{
+            width: 1024px;
+            height: 300px;
+        }
+    } 
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/**responsive sobre mi**/
+
+@media (max-width:1024px){
+    .titulo3 {
+        img{
+            width: 1024px;
+            height: 400px;
+        }
+    } 
+    .sobreinfo{
+        font-size: 30px;
+    }
+    .contenedor4 {
+        img{
+            width:1024px;
+            height: 400px;
+        }
+    } 
+}
+
+/**responsive destinos y gastronomia**/
+
+@media (max-width:1024px){
+    .titulo {
+        img{
+            width: 1024px;
+            height: 400px;
+        }
+    } 
+
+    .paises {
+        a {
+            img{
+                width: 140px;
+                height: 150px;
+            }
+        } 
+    } 
+
+    .paises {
+        a {
+            h3{
+                font-size: 15px;
+            }
+        } 
+    } 
+
+    .centrar {
+        h2{
+            font-size: 40px;
+        }  
+    }  
+}

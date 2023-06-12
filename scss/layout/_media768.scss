@@ -1,0 +1,153 @@
+/**responsive home**/
+
+@media (max-width:768px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .navegacion{
+        padding: 10px;
+    }
+    main {
+        img{
+            width: 768px;
+            height: 350px;
+        }
+    } 
+
+    main {
+        h2{
+            padding: 10px;
+            font-family: 'Galindo', cursive;
+        }
+    } 
+
+    .infohome{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contenedor {
+        a {
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        } 
+    } 
+
+    .contenedor {
+        h3{
+            font-size: 15px;
+        }
+    } 
+
+    .titulos {
+        h1{
+            font-size: 45px;
+        }
+    } 
+
+    .titulos {
+        p{
+            font-size: 15px;
+        }
+    } 
+
+    .titulos {
+        img{
+            width: 768px;
+            height: 200px;
+        }
+    } 
+
+    footer {
+        h1{
+            font-size: 25px;
+        }
+    } 
+
+    .redes {
+        a {
+            font-size: 40px;
+            }
+    } 
+    
+    footer{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+}
+
+/**responsive sobre mi**/
+@media (max-width:768px){
+    .titulo3 {
+        img{
+            width: 768px;
+            height: 300px;
+        }
+    } 
+    .sobreinfo{
+        font-size: 25px;
+    }
+    .contenedor4 {
+        img{
+            width:768px;
+            height: 400px;
+        } 
+    } 
+}
+
+/**responsive destinos y gastronomia**/
+@media (max-width:768px){
+    .titulo {
+        img{
+            width: 768px;
+            height: 400px;
+        }
+    } 
+
+    .centrar {
+        h2{
+            font-size: 40px;
+        } 
+    } 
+
+    .paises {
+        a {
+            img{
+                width: 140px;
+                height: 150px;
+            }
+        } 
+    } 
+
+    .paises {
+        a {
+            h3{
+                font-size: 15px;
+            }
+        } 
+    } 
+
+    .gasas {
+        a {
+            img{
+                width: 150px;
+                height:150px;
+            }
+        } 
+    } 
+
+}
+

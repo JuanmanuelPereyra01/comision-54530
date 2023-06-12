@@ -1,0 +1,60 @@
+.titulo1{
+    background-image: url(../assets/img/lugares/pizzarra.jpg) ;
+}
+
+.titulo1{
+    a{
+        img{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin: 0 25px;
+            display:inline-block;
+        }
+    }
+}   
+.titulo1{
+    h2{
+        font-family: 'Grenze Gotisch', cursive;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5vmax;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        width: 70%;
+    }
+}  
+
+.paisess{
+    h3{
+        font-family: $tipo-deletra2;
+        letter-spacing: 0.1vmax;
+        text-align: center;
+        color: white;
+        &:hover{
+            color: #8d9cd8;
+        }
+    }
+} 
+
+.paisess{
+    display: flex;
+    justify-content:center;
+    margin: 0 25px;
+}
+
+.centrar{
+    h2{
+        font-size: 50px;
+    }
+}
+
+.menu{
+    h2{
+        font-size: 120px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*pantalla gastronomia mex*/

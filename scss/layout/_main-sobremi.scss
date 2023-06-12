@@ -1,0 +1,39 @@
+.titulo3{
+    background-image: url(../assets/img/lugares/mapamundi.jpg);
+}
+
+.sobreinfo{
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    font-size: 30px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    &:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(7, 255, 255);
+    }
+}
+
+.contenedor4{
+    display: flex;
+    width: 1440px;
+    height: 4000px;
+    display:inline-block;
+    justify-content: center;
+}
+
+.hero{
+    @include grid(repeat(4,1fr),repeat(1,2fr) 100px,"header header header header""main main main main""main main main main""main main main main""footer footer footer footer");
+}
+
+header{
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}

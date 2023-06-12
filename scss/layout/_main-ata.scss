@@ -1,0 +1,45 @@
+.tituloata{
+    h5{
+        font-family: $tipo-deletra2;
+        font-size: 60px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-shadow: 6px 6px rgb(0, 0, 0);
+        justify-content: left ;
+        display: flex;
+        letter-spacing: 0.5vmax;
+        margin: 0 25px;
+        justify-content: center;
+    } 
+}  
+
+.tituloata{
+    h3 {
+        font-family: $tipo-deletra2;
+        font-size: 40px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        text-shadow: 6px 6px rgb(0, 0, 0);
+        justify-content: left ;
+        display: flex;
+        letter-spacing: 0.5vmax;
+        margin: 0 25px;
+        justify-content: center;
+    }
+} 
+
+.infoata{
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    font-size: 16px ;
+    text-align: right;
+}
+
+.infoataa{
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    font-size: 16px ;
+    text-align: center;
+}
+
+/*pantalla gastronomia*/

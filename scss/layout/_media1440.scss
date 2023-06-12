@@ -1,0 +1,17 @@
+/**responsive home**/
+
+@media (max-width:1440px){
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .infohome{
+        h2{
+            padding: 10px;
+            text-align: center;
+        }
+    } 
+}

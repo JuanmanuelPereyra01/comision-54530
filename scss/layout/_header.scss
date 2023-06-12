@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    width: 1440;
+    justify-content: space-between;
+    background-color:#0B2447;
+    align-items: center;
+    padding: 10px;
+    color: #e6dcdc;
+    font-family: $tipo-deletra2;
+    font-size: 15px;
+}
+
+
+.navegacion{
+    a{
+        font-weight: 600;
+        padding-right: 10px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #e6dcdc;
+        &:hover{
+            text-decoration: none;
+            color: #576CBC;
+        }
+    }
+}
+
+

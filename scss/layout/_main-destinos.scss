@@ -1,0 +1,73 @@
+.portadades{
+    width:100%;
+    height: 350px; 
+}
+
+.titulodes{
+    h5{
+        font-family: $tipo-deletra2;
+        font-size: 60px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-shadow: 6px 6px rgb(0, 0, 0);
+        justify-content: left ;
+        display: flex;
+        letter-spacing: 0.5vmax;
+        margin: 0 25px;
+        justify-content: center;
+    }
+}  
+
+
+
+.titulo{
+        a{ 
+        img{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin: 0 25px;
+            display:inline-block;
+            }
+        }
+}   
+    
+
+.titulo{
+    h2{
+        font-family: $tipo-deletra2;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5vmax;
+        justify-content: center;
+        display: flex;
+        background-color: #19376D;
+        box-shadow: 6px 6px #0B2447;
+        text-align: center;
+        width: 70%;
+    }
+}   
+
+.paises{
+    display: flex;
+    justify-content:center;
+    margin: 0 25px;
+}
+
+.paises{
+    h3{
+        font-family: $tipo-deletra2;
+        letter-spacing: 0.1vmax;
+        text-align: center;
+        &:hover{
+            text-decoration: none;
+            color: #8d9cd8;
+        }
+    }
+} 
+
+
+.titulo{
+    background-color: #576CBC;
+}
+
+/*pantalla de usa*/

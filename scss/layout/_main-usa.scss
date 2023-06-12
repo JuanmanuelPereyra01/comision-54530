@@ -1,0 +1,51 @@
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.contenedor2{
+    img{
+        border-radius: 40%;
+        background-color:rgba(0,0,0, 0.6);
+    }
+}
+
+.contenedor2{
+    h3{
+        color: silver;
+    }
+}   
+.contenedor2{
+    h4{
+        font-family: $tipo-deletra3;
+        color: silver;
+    }
+}   
+
+
+.nuevayorkinfoa {
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    color: white;
+}
+
+.nuevayorkinfob{
+    margin: 0 25px;
+    font-family: $tipo-deletra2;
+    font-size: 16px ;
+
+}
+
+.footerdestinos{
+    h3{
+        font-size: 40px;
+    }
+} 
+
+/*pantalla de usa (atlanta)*/

@@ -1,0 +1,959 @@
+/**INICIO DE PANTALLA**/
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 1440;
+    justify-content: space-between;
+    background-color:#0B2447;
+    align-items: center;
+    padding: 10px;
+    color: #e6dcdc;
+    font-family: 'Galindo', cursive;
+    font-size: 15px;
+}
+
+
+.navegacion a{
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e6dcdc;
+}
+
+img{
+    width: 100%;
+    height: 500px;
+
+}
+
+
+
+.contenedora {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+
+.contenedor a img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+
+section div a h3{
+    font-family: 'Geostar Fill', cursive;
+    color: rgb(0, 0, 0);
+    margin: 0 45px;
+}
+
+section div article img{
+    width:100%;
+    height: 350px;
+}
+
+.titulos h2{
+    font-family: 'Galindo', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px rgb(0, 0, 0);
+    justify-content: left ;
+    display: flex;
+    margin: 0 25px;
+    
+}
+
+.titulos p{
+    font-family: 'Galindo', cursive;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 25px;
+}
+
+section div article p{
+    font-family: 'Galindo', cursive;
+}
+
+
+footer{
+    display: flex;
+    width: 1440;
+    background-color:#0B2447;
+    align-items: center;
+    padding: 10px;
+    color: #e6dcdc;
+    font-family: 'Galindo', cursive;
+    justify-content: space-between;
+}
+
+.redes a{
+    font-weight: 600;
+    padding-right: 45px;
+    font-size: 60px;
+    text-decoration: none;
+    color: #e6dcdc;
+}
+
+/**PANTALLA DE DESTINOS**/
+
+.portadades{
+    width:100%;
+    height: 350px; 
+}
+
+.titulodes h5{
+    font-family: 'Galindo', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px rgb(0, 0, 0);
+    justify-content: left ;
+    display: flex;
+    letter-spacing: 0.5vmax;
+    margin: 0 25px;
+    justify-content: center;
+}
+
+
+
+.titulo a img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 25px;
+    display:inline-block;
+}
+
+.titulo h2{
+    font-family: 'Galindo', cursive;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5vmax;
+    justify-content: center;
+    display: flex;
+    background-color: #19376D;
+    box-shadow: 6px 6px #0B2447;
+    text-align: center;
+    width: 70%;
+}
+
+.paises{
+    display: flex;
+    justify-content:center;
+    margin: 0 25px;
+}
+
+.paises h3{
+    font-family: 'Galindo', cursive;
+    letter-spacing: 0.1vmax;
+    text-align: center;
+}
+
+
+.titulo{
+    background-color: #576CBC;
+}
+
+/**PANTALLA DE ESTADOS UNIDOS**/
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.contenedor2 img{
+    clip-path: circle();
+    background-color:rgba(0,0,0, 0.6);
+
+}
+
+.contenedor2 h3{
+    color: silver;
+}
+.contenedor2 h4{
+    font-family: 'Geostar Fill', cursive;
+    color: silver;
+}
+
+
+.nuevayorkinfoa {
+    margin: 0 25px;
+    font-family: 'Galindo', cursive;
+    color: white;
+}
+
+.nuevayorkinfob{
+    margin: 0 25px;
+    font-family: 'Galindo', cursive;
+    font-size: 16px ;
+
+}
+
+.footerdestinos h3{
+    font-size: 40px;
+}
+
+/**PANTALLA DE ESTADOS UNIDOS (ATLANTA)**/
+
+.tituloata h5{
+    font-family: 'Galindo', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px rgb(0, 0, 0);
+    justify-content: left ;
+    display: flex;
+    letter-spacing: 0.5vmax;
+    margin: 0 25px;
+    justify-content: center;
+}
+
+.tituloata h3 {
+    font-family: 'Galindo', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 6px rgb(0, 0, 0);
+    justify-content: left ;
+    display: flex;
+    letter-spacing: 0.5vmax;
+    margin: 0 25px;
+    justify-content: center;
+}
+
+.infoata{
+    margin: 0 25px;
+    font-family: 'Galindo', cursive;
+    font-size: 16px ;
+    text-align: right;
+}
+
+.infoataa{
+    margin: 0 25px;
+    font-family: 'Galindo', cursive;
+    font-size: 16px ;
+    text-align: center;
+}
+
+/**PANTALLA DE gastronomia**/
+
+.titulo1{
+    background-image: url(../assets/img/lugares/pizzarra.jpg) ;
+}
+
+.titulo1 a img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 25px;
+    display:inline-block;
+}
+
+.titulo1 h2{
+    font-family: 'Grenze Gotisch', cursive;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5vmax;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 70%;
+}
+
+.paisess h3{
+    font-family: 'Grenze Gotisch', cursive;
+    letter-spacing: 0.1vmax;
+    text-align: center;
+    color: white;
+}
+
+.paisess{
+    display: flex;
+    justify-content:center;
+    margin: 0 25px;
+}
+
+.centrar h2{
+    font-size: 50px;
+}
+
+.menu h2{
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/**PANTALLA DE gastronomia mexico**/
+
+.titulo2 h2{
+    font-family: 'Galindo', cursive;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5vmax;
+    justify-content: center;
+    display: flex;
+    background-color: #19376D;
+    box-shadow: 6px 6px #0B2447;
+    text-align: center;
+    width: 70%;
+}
+
+.titulo2{
+    background-image: url(../assets/img/lugares/pizzarra.jpg) ;
+}
+
+.titulo2 a img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 25px;
+    display:inline-block;
+}
+
+.titulo2 h3{
+    font-family: 'Grenze Gotisch', cursive;
+    color:white;
+}
+
+.mexgasinfo{
+    margin: 0 25px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px ;
+    color: white;
+    text-align: center;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.contenedor3 img{
+    clip-path: circle();
+    background-color:rgba(0,0,0, 0.6);
+}
+
+.contenedor3 h3{
+    color: silver;
+    font-family:'Geostar Fill', cursive;
+}
+
+/**PANTALLA DE SOBRE MI**/
+
+.titulo3{
+    background-image: url(../assets/img/lugares/mapamundi.jpg);
+}
+
+.sobreinfo{
+    margin: 0 25px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 30px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.contenedor4{
+    display: flex;
+    width: 1440px;
+    height: 4000px;
+    display:inline-block;
+    justify-content: center;
+}
+
+/**grids sobre mi**/
+
+.hero{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(1,2fr) 100px;
+    grid-template-areas:
+    "header header header header" 
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+}
+
+    header{
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+
+/**responsive home**/
+
+@media (max-width:1440px){
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .infohome h2{
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:1024px){
+    main img{
+        width: 1024px;
+        height: 450px;
+    }
+
+    main h2{
+        padding: 10px;
+        font-family: 'Galindo', cursive;
+    }
+
+    .infohome a{
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .titulos img{
+        width: 1024px;
+        height: 300px;
+    }
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px){
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .navegacion{
+        padding: 10px;
+    }
+    main img{
+        width: 768px;
+        height: 350px;
+    }
+
+    main h2{
+        padding: 10px;
+        font-family: 'Galindo', cursive;
+    }
+
+    .infohome{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contenedor{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contenedor a img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenedor h3{
+        font-size: 15px;
+    }
+
+    .titulos h1{
+        font-size: 45px;
+    }
+
+    .titulos p{
+        font-size: 15px;
+    }
+
+    .titulos img{
+        width: 768px;
+        height: 200px;
+    }
+
+    footer h1{
+        font-size: 25px;
+    }
+
+    .redes a {
+    font-size: 40px;
+    }
+    
+    footer{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:425px){
+    .navegacion a{
+        font-size: 15px;
+    }
+
+    main img{
+        width: 425px;
+        height: 250px;
+    }
+
+    .titulos img{
+        width: 425px;
+        height: 150px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    footer h1{
+        font-size: 20px;
+    }
+
+    .titulos p{
+        font-size: 14px;
+    }
+
+    .contenedor a img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedora{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    }
+
+    .contenedor h3{
+        font-size: 13px;
+        
+    }
+
+}
+
+@media (max-width:375px){
+    .navegacion a{
+        font-size: 14px;
+    }
+
+    main img{
+        width: 375px;
+        height: 220px;
+    }
+
+    .titulos img{
+        width: 375px;
+        height: 100px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    footer h2{
+        font-size: 17px;
+    }
+
+    .titulos p{
+        font-size: 14px;
+    }
+
+    .contenedor a img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .contenedora{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+            
+    .contenedorb{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contenedorc{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contenedor h3{
+        font-size: 13px;
+        
+    }
+}
+
+@media (max-width:320px){
+    .navegacion a{
+        font-size: 11px;
+    }
+
+    main img{
+        width: 320px;
+        height: 160px;
+    }
+
+    .titulos img{
+        width: 320px;
+        height: 100px;
+    }
+
+    .titulos h2{
+        font-size: 30px;
+    }
+
+    footer h1{
+        font-size: 17px;
+    }
+
+    .titulos p{
+        font-size: 13px;
+    }
+
+    .contenedor a img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .contenedora{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+            
+    .contenedorb{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contenedorc{
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contenedor h3{
+        font-size: 10px;   
+    }
+}
+
+/**responsive sobre mi**/
+
+@media (max-width:1024px){
+    .titulo3 img{
+        width: 1024px;
+        height: 400px;
+    }
+    .sobreinfo{
+        font-size: 30px;
+    }
+    .contenedor4 img{
+        width:1024px;
+        height: 400px;
+    }
+
+}
+@media (max-width:768px){
+    .titulo3 img{
+        width: 768px;
+        height: 300px;
+    }
+    .sobreinfo{
+        font-size: 25px;
+    }
+    .contenedor4 img{
+        width:768px;
+        height: 400px;
+    } 
+}
+@media (max-width:425px){
+    .titulo3 img{
+        width: 425px;
+        height: 200px;
+    }
+    .sobreinfo{
+        font-size: 25px;
+    }
+    .contenedor4 img{
+        width:425px;
+        height: 200px;
+    } 
+    
+    .titulodes h5{
+        font-size: 50px;
+    }
+}
+@media (max-width:375px){
+    .titulo3 img{
+        width: 375px;
+        height: 170px;
+    }
+    .sobreinfo{
+        font-size: 20px;
+    }
+
+    .titulodes h1{
+        font-size: 40px;
+    }
+    .contenedor4 img{
+        width:375px;
+        height: 200px;
+    }
+     
+}
+@media (max-width:320px){
+    .titulo3 img{
+        width: 320px;
+        height: 150px;
+    }
+    .sobreinfo{
+        font-size: 15px;
+    }
+
+    .titulodes h5{
+        font-size: 35px;
+    }
+
+    .contenedor4 img{
+        width:320px;
+        height: 200px;
+
+    } 
+}
+
+/**responsive destinos y gastronomia**/
+
+
+@media (max-width:1024px){
+    .titulo img{
+        width: 1024px;
+        height: 400px;
+    }
+
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .centrar h2{
+        font-size: 40px;
+    }
+    
+
+}
+@media (max-width:768px){
+    .titulo img{
+        width: 768px;
+        height: 400px;
+    }
+
+    .centrar h2{
+        font-size: 40px;
+    } 
+
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .gasas a img{
+        width: 150px;
+        height:150px;
+    }
+
+}
+@media (max-width:425px){
+    .titulo img{
+        width: 425px;
+        height: 300px;
+    }
+
+    .centrar h2{
+        font-size: 30px;
+    }
+    
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h5{
+        font-size: 40px;
+    }
+
+
+    .paisess{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .paises{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerdestinos h3{
+        font-size: 25px;
+    }
+
+}
+@media (max-width:375px){
+    .titulo img{
+        width: 375px;
+        height: 250px;
+    }
+
+    .centrar h2{
+        font-size: 25px;
+    }
+    
+    .paises a img{
+        width: 140px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h5{
+        font-size: 35px;
+    }
+
+    .footerdestinos h3{
+        font-size: 20px;
+    }
+}
+@media (max-width:320px){
+    .titulo img{
+        width: 320px;
+        height: 250px;
+    }
+
+    .centrar h2{
+        font-size: 18px;
+    }
+    
+    .paises a img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .paises a h3{
+        font-size: 15px;
+    }
+
+    .titulodes h5{
+        font-size: 30px;
+    }
+
+    .footerdestinos h3{
+        font-size: 20px;
+    }
+}
+
+/**pseudoclases de Header y Footer**/
+
+.navegacion a:hover{
+    text-decoration: none;
+    color: #576CBC;
+}
+
+.redes a:hover{
+    text-decoration: none;
+    color: #576CBC;
+}
+
+/**pseudoclases de Home**/
+
+.titulos h2:hover{
+    text-decoration: none;
+    color: #576CBC;
+}
+
+/**pseudoclases de destinos**/
+
+.centrar h2:hover{
+    text-decoration: none;
+    color: #576CBC;
+}
+
+.paises  a h3:hover{
+    text-decoration: none;
+    color: #8d9cd8;
+}
+
+
+
