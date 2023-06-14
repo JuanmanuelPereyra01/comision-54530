@@ -1,4 +1,12 @@
 
+
+.colorss{
+    h2{
+        color: white;
+        background-image: linear-gradient(to bottom, #a5d7e8, #82b8d2, #6299bc, #467ba5, #2f5d8e, #2b558a, #294c85, #294480, #344e8f, #40589e, #4b62ad, #576cbc);
+    }
+}
+
 img{
     width: 100%;
     height: 500px;
@@ -18,6 +26,9 @@ img{
             width: 200px;
             height: 200px;
             margin: 0 25px;
+            &:hover{
+                transform: scale(1.1);
+            }
         }
     }
 }

@@ -47,6 +47,10 @@ footer {
     text-decoration: none;
     color: #576CBC; }
 
+.colorss h2 {
+  color: white;
+  background-image: linear-gradient(to bottom, #a5d7e8, #82b8d2, #6299bc, #467ba5, #2f5d8e, #2b558a, #294c85, #294480, #344e8f, #40589e, #4b62ad, #576cbc); }
+
 img {
   width: 100%;
   height: 500px; }
@@ -61,6 +65,8 @@ img {
   width: 200px;
   height: 200px;
   margin: 0 25px; }
+  .contenedor a img:hover {
+    transform: scale(1.1); }
 
 section div a h3 {
   font-family: "Galindo";
@@ -158,6 +164,9 @@ section div article p {
 .contenedor2 img {
   border-radius: 40%;
   background-color: rgba(0, 0, 0, 0.6); }
+  .contenedor2 img:hover {
+    transform: scale(1.1);
+    border-radius: 65%; }
 
 .contenedor2 h3 {
   color: silver; }
