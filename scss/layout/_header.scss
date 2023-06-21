@@ -25,4 +25,72 @@ header{
     }
 }
 
+/*buscador*/
+
+.buscador-container {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 4px;
+}
+
+.buscador-input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.buscador-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.buscador-btn:hover {
+    background-color: #0056b3;
+}
+ 
+.buscador-btn {
+    background-color: #19376D;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-left: -4px;
+    cursor: pointer;
+    animation: cambio-color 10s infinite;
+}
+.buscador-btn i {
+    color: #ffffff;
+}
+
+@keyframes cambio-color {
+    0% {
+    background-color: #0B2447;
+    }
+    25% {
+    background-color: #19376D;
+    }
+    50% {
+    background-color: #576CBC;
+    }
+    75% {
+    background-color: #6778be;
+    }
+    100% {
+    background-color: #0B2447;
+    }
+}
+
+.buscador-btn[data-color="#A5D7E8"] i {
+    color: #000;
+}
 
