@@ -154,3 +154,85 @@
     } 
 }
 
+/**responsive US y Ata**/
+@media (max-width:425px){
+    .titulo {
+        img{
+            width: 425px;
+            height: 300px;
+        }
+    } 
+
+    .titulodes {
+        text-align: center;
+    } 
+
+
+
+    .centrar {
+        h2{
+            font-size: 30px;
+        }
+    } 
+    
+
+    .paises {
+        a {
+            h3{
+                font-size: 15px;
+            }
+        } 
+    } 
+
+    .titulodes {
+        h5{
+            font-size: 40px;
+        }
+    } 
+
+.nuevayorkinfoa{
+    img{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.centrarus{
+    flex-direction: column;
+}
+
+.nuevayorkinfoa{
+    h3{
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+
+  .contenedor2{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+    .footerdestinos {
+        h3{
+            font-size: 25px;
+        }
+    } 
+
+    .contenedor3{
+        flex-direction: column;
+        
+    }
+
+    .atafoto{
+        img{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
